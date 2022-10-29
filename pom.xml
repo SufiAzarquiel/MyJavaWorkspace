@@ -4,14 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.romankh3</groupId>
-    <artifactId>maven-template-repository</artifactId>
+    <groupId>com.github.sufiAzarquiel</groupId>
+    <artifactId>my-java-workspace</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Maven Repository Template</name>
+    <name>My Java workspace</name>
 
-    <url>https://github.com/template-repository/maven-template-repository</url>
+    <url>https://github.com/SufiAzarquiel/MyJavaWorkspace</url>
 
     <licenses>
         <license>
@@ -23,8 +23,8 @@
     <properties>
         <mockito.version>2.26.0</mockito.version>
         <junit.version>5.5.2</junit.version>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <javadoc.plugin.version>3.1.1</javadoc.plugin.version>
         <source.plugin.version>3.2.0</source.plugin.version>
