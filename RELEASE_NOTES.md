@@ -1,2 +1,4 @@
-## 1.0-SNAPSHOT
-*   Created template for new repositories.
+## 1.0
+*   Customized repo template.
+*   Created helloworld file and a test for it.
+*   Added "bucles" package and created one file.
