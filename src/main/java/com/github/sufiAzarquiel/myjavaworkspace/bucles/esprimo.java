@@ -1,4 +1,4 @@
-package com.github.sufiAzarquiel.myjavaworkspace.bucles;
+package com.github.sufiazarquiel.myjavaworkspace.bucles;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package com.github.sufiAzarquiel.myjavaworkspace;
+package com.github.sufiazarquiel.myjavaworkspace;
 
 /**
  * Main class for my workspace repository.

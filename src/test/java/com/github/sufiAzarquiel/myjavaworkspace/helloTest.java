@@ -1,4 +1,4 @@
-package com.github.sufiAzarquiel.myjavaworkspace;
+package com.github.sufiazarquiel.myjavaworkspace;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
