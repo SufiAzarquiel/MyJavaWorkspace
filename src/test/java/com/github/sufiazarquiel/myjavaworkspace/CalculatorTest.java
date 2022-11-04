@@ -25,16 +25,15 @@ public class CalculatorTest {
     public void testSubtract() {
         Calculator calculator = new Calculator();
         calculator.subtract(4);
-        assertEquals(-4, calculator.getValue());
+        calculator.add(10);
+        assertEquals(6, calculator.getValue());
     }
 
-    // @Test
-    // public void testGetValue() {
-        
-    // }
-
-    // @Test
-    // public void testResetValue() {
-        
-    // }
+    @Test
+    public void testResetValue() {
+        Calculator calculator = new Calculator();
+        calculator.subtract(4);
+        calculator.resetValue();
+        assertEquals(0, calculator.getValue());
+    }
 }
