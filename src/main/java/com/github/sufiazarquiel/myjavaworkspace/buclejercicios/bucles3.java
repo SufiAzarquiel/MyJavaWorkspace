@@ -17,7 +17,7 @@ public class bucles3 {
 
     public static void main(String[] args) {
         // Variables
-        int num = 0, newVar = 1;
+        int num = 0, lineLen = 1;
 
         // Objeto para leer lo que teclea el usuario.
         try {
@@ -34,10 +34,10 @@ public class bucles3 {
 
         // Un bucle for anidado dentro de otro.
         for (int i = 0; i < num+1; i++) {
-            for (int j = 1; j < newVar; j++) {
+            for (int j = 1; j < lineLen; j++) {
                 System.out.print(j + " ");
             }
-            newVar++;
+            lineLen++;
             System.out.println("");
         }
     }
