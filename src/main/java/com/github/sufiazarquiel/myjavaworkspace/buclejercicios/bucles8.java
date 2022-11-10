@@ -1,5 +1,7 @@
 package com.github.sufiazarquiel.myjavaworkspace.buclejercicios;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class bucles8 {
@@ -8,12 +10,6 @@ public class bucles8 {
      * Introduciendo: 75
      * Da como salida : 3 5 5
      */
-
-    // Variables
-    static int num = 0; // El número introducido por el usuario
-    static int factor = 1; // Los posibles factores de n
-    // Valores que simulan input del usuario.
-    static String input = "75\n";
 
     // Método que comprueba si un número positivo es primo
     public static boolean esPrimo(int a) {
@@ -29,7 +25,13 @@ public class bucles8 {
     }
 
     // Método que hace la tarea que pide el ejercicio.
-    public static int factores() {
+    public static List<Integer> factores(String input) {
+        // Variables
+        int num = 0; // El número introducido por el usuario
+        int factor = 1; // Los posibles factores de n
+        // Lista para guardar el resultado
+        List<Integer> resultado = new ArrayList<Integer>();
+
         // Objeto para leer lo que teclea el usuario.
         try {
             Scanner teclado = new Scanner(input);
@@ -51,17 +53,22 @@ public class bucles8 {
                 while (num % factor == 0) {
                     num /= factor;
                     System.out.printf("%d ", factor);
+                    resultado.add(factor);
                 }
             }
             factor++;
-        } while (factor < num);
+        } while (factor <= num);
 
         // Valor final usado para el test unitario.
-        return -1;
+        return resultado;
     }
 
     // Ejecuta el método principal de la clase.
     public static void main(String[] args) {
-        factores();
+        // Valores que simulan input del usuario.
+        String input = "10\n";
+
+        // Ejecuta la función principal
+        factores(input);
     }
 }
