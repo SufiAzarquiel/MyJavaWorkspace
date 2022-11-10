@@ -68,5 +68,12 @@
 			""
 		  ],
 		"description": "Template for S1Dam exercises"
-	}
+	},
+	"Regular print": {
+		"prefix": "sysfout",
+		"body": [
+		  "System.out.printf(\"$0\");"
+		],
+		"description": ""
+	  }
 }
