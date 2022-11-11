@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class bucles9 {
     /*
      * Ejercicio 9: Programa que lea un número entero positivo y
-     * lo transforme a su representaciónbinaria.
+     * lo transforme a su representación binaria.
      */
 
     // Método que hace la tarea que pide el ejercicio.
@@ -32,8 +32,7 @@ public class bucles9 {
         do {
             binario = num % 2 + binario;
             num /= 2;
-        } while (num > 1);
-        binario = num + binario;
+        } while (num >= 1);
 
         System.out.println(binario);
         // Valor final usado para el test unitario.
