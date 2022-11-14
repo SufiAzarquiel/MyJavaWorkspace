@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class posneg {
     /*
-     * Ejercicio : Un programa que pide números e imprime de manera cumulativa 
+     * Ejercicio : Un programa que pide números e imprime de manera cumulativa
      * las cantidades positivas y las negativas por separado.
      * Para de pedir números cuando las sumas sean iguales.
      */
@@ -42,4 +42,3 @@ public class posneg {
         posnegF();
     }
 }
-
