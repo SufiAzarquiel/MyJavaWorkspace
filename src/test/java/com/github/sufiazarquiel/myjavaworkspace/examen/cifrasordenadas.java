@@ -41,7 +41,7 @@ public class cifrasordenadas {
                 ordenado = false;
                 break;
             }
-        } while (cifra > 1);
+        } while (n > 0);
         if (ordenado) {
             System.out.printf("El numero %d tiene todas sus cifras ordenadas ascendentemente.\n", num);
         }
@@ -52,7 +52,7 @@ public class cifrasordenadas {
     // Ejecuta el método principal de la clase.
     public static void main(String[] args) {
         // Valores que simulan input del usuario.
-        String input = "2456\n" + "-1\n";
+        String input = "1001\n" + "-1\n";
 
         // Ejecutar función del ejercicio.
         cifrasEnOrden(input);
